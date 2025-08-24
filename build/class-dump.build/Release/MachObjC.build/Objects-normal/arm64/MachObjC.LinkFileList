@@ -18,8 +18,6 @@
 /Users/denglibing/HDSpaces/HDPrivates/HDDream/app2dylib/class-dump/build/class-dump.build/Release/MachObjC.build/Objects-normal/arm64/CDLCRoutines64.o
 /Users/denglibing/HDSpaces/HDPrivates/HDDream/app2dylib/class-dump/build/class-dump.build/Release/MachObjC.build/Objects-normal/arm64/CDLCRunPath.o
 /Users/denglibing/HDSpaces/HDPrivates/HDDream/app2dylib/class-dump/build/class-dump.build/Release/MachObjC.build/Objects-normal/arm64/CDLCSegment.o
-/Users/denglibing/HDSpaces/HDPrivates/HDDream/app2dylib/class-dump/build/class-dump.build/Release/MachObjC.build/Objects-normal/arm64/CDLCSegment32.o
-/Users/denglibing/HDSpaces/HDPrivates/HDDream/app2dylib/class-dump/build/class-dump.build/Release/MachObjC.build/Objects-normal/arm64/CDLCSegment64.o
 /Users/denglibing/HDSpaces/HDPrivates/HDDream/app2dylib/class-dump/build/class-dump.build/Release/MachObjC.build/Objects-normal/arm64/CDLCSubClient.o
 /Users/denglibing/HDSpaces/HDPrivates/HDDream/app2dylib/class-dump/build/class-dump.build/Release/MachObjC.build/Objects-normal/arm64/CDLCSubFramework.o
 /Users/denglibing/HDSpaces/HDPrivates/HDDream/app2dylib/class-dump/build/class-dump.build/Release/MachObjC.build/Objects-normal/arm64/CDLCSubLibrary.o
@@ -36,8 +34,6 @@
 /Users/denglibing/HDSpaces/HDPrivates/HDDream/app2dylib/class-dump/build/class-dump.build/Release/MachObjC.build/Objects-normal/arm64/CDFatArch.o
 /Users/denglibing/HDSpaces/HDPrivates/HDDream/app2dylib/class-dump/build/class-dump.build/Release/MachObjC.build/Objects-normal/arm64/CDMachOFile.o
 /Users/denglibing/HDSpaces/HDPrivates/HDDream/app2dylib/class-dump/build/class-dump.build/Release/MachObjC.build/Objects-normal/arm64/CDSection.o
-/Users/denglibing/HDSpaces/HDPrivates/HDDream/app2dylib/class-dump/build/class-dump.build/Release/MachObjC.build/Objects-normal/arm64/CDSection32.o
-/Users/denglibing/HDSpaces/HDPrivates/HDDream/app2dylib/class-dump/build/class-dump.build/Release/MachObjC.build/Objects-normal/arm64/CDSection64.o
 /Users/denglibing/HDSpaces/HDPrivates/HDDream/app2dylib/class-dump/build/class-dump.build/Release/MachObjC.build/Objects-normal/arm64/CDSymbol.o
 /Users/denglibing/HDSpaces/HDPrivates/HDDream/app2dylib/class-dump/build/class-dump.build/Release/MachObjC.build/Objects-normal/arm64/CDRelocationInfo.o
 /Users/denglibing/HDSpaces/HDPrivates/HDDream/app2dylib/class-dump/build/class-dump.build/Release/MachObjC.build/Objects-normal/arm64/CDObjectiveCProcessor.o
@@ -45,6 +41,7 @@
 /Users/denglibing/HDSpaces/HDPrivates/HDDream/app2dylib/class-dump/build/class-dump.build/Release/MachObjC.build/Objects-normal/arm64/CDObjectiveC2Processor.o
 /Users/denglibing/HDSpaces/HDPrivates/HDDream/app2dylib/class-dump/build/class-dump.build/Release/MachObjC.build/Objects-normal/arm64/CDVisitorPropertyState.o
 /Users/denglibing/HDSpaces/HDPrivates/HDDream/app2dylib/class-dump/build/class-dump.build/Release/MachObjC.build/Objects-normal/arm64/CDOCCategory.o
+/Users/denglibing/HDSpaces/HDPrivates/HDDream/app2dylib/class-dump/build/class-dump.build/Release/MachObjC.build/Objects-normal/arm64/CDOCClassReference.o
 /Users/denglibing/HDSpaces/HDPrivates/HDDream/app2dylib/class-dump/build/class-dump.build/Release/MachObjC.build/Objects-normal/arm64/CDOCClass.o
 /Users/denglibing/HDSpaces/HDPrivates/HDDream/app2dylib/class-dump/build/class-dump.build/Release/MachObjC.build/Objects-normal/arm64/CDOCInstanceVariable.o
 /Users/denglibing/HDSpaces/HDPrivates/HDDream/app2dylib/class-dump/build/class-dump.build/Release/MachObjC.build/Objects-normal/arm64/CDOCMethod.o

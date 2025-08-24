@@ -1,0 +1,32 @@
+dependencies: \
+  /Users/denglibing/HDSpaces/HDPrivates/HDDream/app2dylib/class-dump/MachObjC-Prefix.pch \
+  /Users/denglibing/HDSpaces/HDPrivates/HDDream/app2dylib/class-dump/Source/CDExtensions.h \
+  /Users/denglibing/HDSpaces/HDPrivates/HDDream/app2dylib/class-dump/Source/CDTopoSortNode.h \
+  /Users/denglibing/HDSpaces/HDPrivates/HDDream/app2dylib/class-dump/Source/CDTopologicalSortProtocol.h \
+  /Users/denglibing/HDSpaces/HDPrivates/HDDream/app2dylib/class-dump/Source/NSArray-CDExtensions.h \
+  /Users/denglibing/HDSpaces/HDPrivates/HDDream/app2dylib/class-dump/Source/NSData-CDExtensions.h \
+  /Users/denglibing/HDSpaces/HDPrivates/HDDream/app2dylib/class-dump/Source/NSError-CDExtensions.h \
+  /Users/denglibing/HDSpaces/HDPrivates/HDDream/app2dylib/class-dump/Source/NSScanner-CDExtensions.h \
+  /Users/denglibing/HDSpaces/HDPrivates/HDDream/app2dylib/class-dump/Source/NSString-CDExtensions.h \
+  /Users/denglibing/HDSpaces/HDPrivates/HDDream/app2dylib/class-dump/Source/CDObjectiveC2Processor.m \
+  /Users/denglibing/HDSpaces/HDPrivates/HDDream/app2dylib/class-dump/Source/CDObjectiveC2Processor.h \
+  /Users/denglibing/HDSpaces/HDPrivates/HDDream/app2dylib/class-dump/Source/CDObjectiveCProcessor.h \
+  /Users/denglibing/HDSpaces/HDPrivates/HDDream/app2dylib/class-dump/Source/CDMachOFile.h \
+  /Users/denglibing/HDSpaces/HDPrivates/HDDream/app2dylib/class-dump/Source/CDFile.h \
+  /Users/denglibing/HDSpaces/HDPrivates/HDDream/app2dylib/class-dump/Source/CDSection.h \
+  /Users/denglibing/HDSpaces/HDPrivates/HDDream/app2dylib/class-dump/Source/CDLCSegment.h \
+  /Users/denglibing/HDSpaces/HDPrivates/HDDream/app2dylib/class-dump/Source/CDLoadCommand.h \
+  /Users/denglibing/HDSpaces/HDPrivates/HDDream/app2dylib/class-dump/Source/CDMachOFileDataCursor.h \
+  /Users/denglibing/HDSpaces/HDPrivates/HDDream/app2dylib/class-dump/Source/CDDataCursor.h \
+  /Users/denglibing/HDSpaces/HDPrivates/HDDream/app2dylib/class-dump/Source/CDOCClass.h \
+  /Users/denglibing/HDSpaces/HDPrivates/HDDream/app2dylib/class-dump/Source/CDOCProtocol.h \
+  /Users/denglibing/HDSpaces/HDPrivates/HDDream/app2dylib/class-dump/Source/CDOCMethod.h \
+  /Users/denglibing/HDSpaces/HDPrivates/HDDream/app2dylib/class-dump/Source/CDOCInstanceVariable.h \
+  /Users/denglibing/HDSpaces/HDPrivates/HDDream/app2dylib/class-dump/Source/CDLCSymbolTable.h \
+  /Users/denglibing/HDSpaces/HDPrivates/HDDream/app2dylib/class-dump/Source/CDOCCategory.h \
+  /Users/denglibing/HDSpaces/HDPrivates/HDDream/app2dylib/class-dump/Source/CDClassDump.h \
+  /Users/denglibing/HDSpaces/HDPrivates/HDDream/app2dylib/class-dump/Source/CDSymbol.h \
+  /Users/denglibing/HDSpaces/HDPrivates/HDDream/app2dylib/class-dump/Source/CDOCProperty.h \
+  /Users/denglibing/HDSpaces/HDPrivates/HDDream/app2dylib/class-dump/Source/cd_objc2.h \
+  /Users/denglibing/HDSpaces/HDPrivates/HDDream/app2dylib/class-dump/Source/CDProtocolUniquer.h \
+  /Users/denglibing/HDSpaces/HDPrivates/HDDream/app2dylib/class-dump/Source/CDOCClassReference.h
