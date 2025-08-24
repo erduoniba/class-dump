@@ -1,7 +1,7 @@
 // -*- mode: ObjC -*-
 
 //  This file is part of class-dump, a utility for examining the Objective-C segment of Mach-O files.
-//  Copyright (C) 1997-1998, 2000-2001, 2004-2012 Steve Nygard.
+//  Copyright (C) 1997-1998, 2000-2001, 2004-2015 Steve Nygard.
 
 #import "CDLCUnknown.h"
 
@@ -22,7 +22,12 @@ static BOOL debug = NO;
         _loadCommand.cmdsize = [cursor readInt32];
         if (debug) NSLog(@"cmdsize: %u", _loadCommand.cmdsize);
         
-        if (_loadCommand.cmdsize > 8) {
+        // Sanity check for cmdsize
+        if (_loadCommand.cmdsize < 8 || _loadCommand.cmdsize > 4096) {
+            NSLog(@"Warning: Invalid cmdsize %u for command 0x%x, skipping", _loadCommand.cmdsize, _loadCommand.cmd);
+            _loadCommand.cmdsize = 8; // Minimum size
+            _commandData = nil;
+        } else if (_loadCommand.cmdsize > 8) {
             NSMutableData *commandData = [[NSMutableData alloc] init];
             [cursor appendBytesOfLength:_loadCommand.cmdsize - 8 intoData:commandData];
             _commandData = [commandData copy];

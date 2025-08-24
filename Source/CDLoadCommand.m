@@ -1,7 +1,7 @@
 // -*- mode: ObjC -*-
 
 //  This file is part of class-dump, a utility for examining the Objective-C segment of Mach-O files.
-//  Copyright (C) 1997-1998, 2000-2001, 2004-2012 Steve Nygard.
+//  Copyright (C) 1997-1998, 2000-2001, 2004-2015 Steve Nygard.
 
 #import "CDLoadCommand.h"
 
@@ -17,8 +17,7 @@
 #import "CDLCRoutines32.h"
 #import "CDLCRoutines64.h"
 #import "CDLCRunPath.h"
-#import "CDLCSegment32.h"
-#import "CDLCSegment64.h"
+#import "CDLCSegment.h"
 #import "CDLCSubClient.h"
 #import "CDLCSubFramework.h"
 #import "CDLCSubLibrary.h"
@@ -48,7 +47,8 @@
     uint32_t val = [cursor peekInt32];
 
     switch (val) {
-        case LC_SEGMENT:               targetClass = [CDLCSegment32 class]; break;
+        case LC_SEGMENT:               targetClass = [CDLCSegment class]; break;
+        case LC_SEGMENT_64:            targetClass = [CDLCSegment class]; break;
         case LC_SYMTAB:                targetClass = [CDLCSymbolTable class]; break;
             //case LC_SYMSEG: // obsolete
             //case LC_THREAD: // not used?
@@ -72,7 +72,6 @@
         case LC_TWOLEVEL_HINTS:        targetClass = [CDLCTwoLevelHints class]; break;
         case LC_PREBIND_CKSUM:         targetClass = [CDLCPrebindChecksum class]; break;
         case LC_LOAD_WEAK_DYLIB:       targetClass = [CDLCDylib class]; break;
-        case LC_SEGMENT_64:            targetClass = [CDLCSegment64 class]; break;
         case LC_ROUTINES_64:           targetClass = [CDLCRoutines64 class]; break;
         case LC_UUID:                  targetClass = [CDLCUUID class]; break;
         case LC_RPATH:                 targetClass = [CDLCRunPath class]; break;
@@ -88,6 +87,9 @@
         case LC_LOAD_UPWARD_DYLIB:     targetClass = [CDLCDylib class]; break;
         case LC_VERSION_MIN_MACOSX:    targetClass = [CDLCVersionMinimum class]; break;
         case LC_VERSION_MIN_IPHONEOS:  targetClass = [CDLCVersionMinimum class]; break;
+        case 0x32:                     targetClass = [CDLCVersionMinimum class]; break; // LC_BUILD_VERSION
+        case 0x80000033:               targetClass = [CDLCLinkeditData class]; break;   // LC_DYLD_CHAINED_FIXUPS
+        case 0x80000034:               targetClass = [CDLCLinkeditData class]; break;   // LC_DYLD_EXPORTS_TRIE
         case LC_FUNCTION_STARTS:       targetClass = [CDLCFunctionStarts class]; break;
         case LC_DYLD_ENVIRONMENT:      targetClass = [CDLCDylinker class]; break;
         case LC_MAIN:                  targetClass = [CDLCMain class]; break;
@@ -191,6 +193,9 @@
         case LC_LOAD_UPWARD_DYLIB:     return @"LC_LOAD_UPWARD_DYLIB";
         case LC_VERSION_MIN_MACOSX:    return @"LC_VERSION_MIN_MACOSX";
         case LC_VERSION_MIN_IPHONEOS:  return @"LC_VERSION_MIN_IPHONEOS";
+        case 0x32:                     return @"LC_BUILD_VERSION";
+        case 0x80000033:               return @"LC_DYLD_CHAINED_FIXUPS";
+        case 0x80000034:               return @"LC_DYLD_EXPORTS_TRIE";
         case LC_FUNCTION_STARTS:       return @"LC_FUNCTION_STARTS";
         case LC_DYLD_ENVIRONMENT:      return @"LC_DYLD_ENVIRONMENT";
         default:
